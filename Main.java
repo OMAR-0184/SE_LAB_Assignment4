@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static final String URL = "jdbc:postgresql://localhost:5432/mybd";
     public static final String USERNAME = "postgres";
-    public static final String PASSWORD = "Open@123";
+    public static final String PASSWORD = "PASSWORD";
 
     public static void main(String[] args) throws Exception {
         Connection conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
